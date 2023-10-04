@@ -1,0 +1,26 @@
+{
+  "name": "swag-labs-demo-app",
+  "version": "1.0.0",
+  "description": "This framework is to test Swag Lab's e2e scenarios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chathura1990/zendesk.swaglabs.git"
+  },
+  "keywords": [
+    "zendesk",
+    "swaglabs"
+  ],
+  "author": "chathurasanjeew@gmail.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Chathura1990/zendesk.swaglabs/issues"
+  },
+  "homepage": "https://github.com/Chathura1990/zendesk.swaglabs#readme",
+  "dependencies": {
+    "cypress": "^12.17.2"
+  }
+}

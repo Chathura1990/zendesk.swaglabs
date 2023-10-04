@@ -1,0 +1,20 @@
+# Directories
+build/
+bin/
+target/
+node_modules/
+reports/
+Cypress.app
+output/
+.idea
+
+
+# package files
+*.jar
+*.war
+*.ear
+*.db
+*.iml
+
+# log files
+*.log
