@@ -2,7 +2,7 @@ Feature: Item Verification and Complete Shopping Flow with Multiple Items
 
   Background:
     Given the logged in valid_user on the inventory page
-#
+
   Scenario: User Completes Shopping Flow and Places an Order
     When the user adds several items to shopping cart:
       | itemName1           | itemName2               |
@@ -25,8 +25,8 @@ Feature: Item Verification and Complete Shopping Flow with Multiple Items
     And the user clicks on the Finish button
     Then the user should see Thank you for your order! message
 
-#    # This scenario is a possible bug and a security whole.
-#      # There should be an error message when the user clicks on finish button without items on the cart
+ # This scenario is a possible bug and a security whole.
+ # There should be an error message when the user clicks on finish button without items on the cart
   Scenario: User Proceeds to Checkout with Empty Cart and Sees Thank You Message
     When the user clicks on the shopping cart icon with 0 items
     And the user proceeds to checkout

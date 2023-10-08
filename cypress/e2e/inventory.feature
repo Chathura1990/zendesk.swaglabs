@@ -3,7 +3,7 @@ Feature: Product Details and Shopping Cart Interaction
   Background:
     Given the logged in valid_user on the inventory page
 
-#two scenarios should fail due to wrong description (Sauce Labs Backpack & Test.allTheThings() T-Shirt (Red)) possible bugs
+# two scenarios should fail due to wrong description (Sauce Labs Backpack & Test.allTheThings() T-Shirt (Red)) possible bugs
   Scenario Outline: User checks <itemName> price, description, and adds it to the cart
     When the user selects the <itemName> item to view more details
     Then the user redirects to <expectedPage> page with id <itemId>
